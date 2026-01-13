@@ -37,5 +37,5 @@ forge script script/Counter.s.sol
 ```
 ## Deploy smart contract to other Networks
 ```shell
-forge script script/Counter.s.sol 
+$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
 ```
