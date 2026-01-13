@@ -31,6 +31,10 @@ forge coverage
 ```shell
 forge snapshort
 ```
+## start testnet
+```shell
+anvil
+```
 ## Deploy smart contract to local anvil testnet
 ```shell
 forge script script/Counter.s.sol 
