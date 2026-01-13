@@ -22,12 +22,13 @@ This repository is created to:
 ## 🛠️ Technologies Covered
 
 * Programming fundamentals
-* Data Structures & Algorithms
-* Web Development (HTML, CSS, JavaScript)
-* Backend basics
-* Databases
-* Blockchain & Smart Contracts (Solidity – optional)
-* AI / Automation basics (optional)
+* Solidity smart contract development
+* Implementing Security Best practices and Gas optimization
+* Web3 Development (wallet integration, ABI, Contract-Address, JavaScript)
+* Backend basics for off-chain activities related to enum and emit
+* Smart contract security research
+* Manual Automation and formal verification of Smart Contracts
+* Creating Audit Report
 
 > Technologies may expand as learning progresses.
 
@@ -53,7 +54,7 @@ This repository is created to:
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/2026-programming-activitys.git
+   git clone https://github.com/vishwajeeta/2026-programming-activitys.git
    ```
 2. Navigate month-wise
 3. Run code or read notes
@@ -63,14 +64,14 @@ This repository is created to:
 
 * 📘 Learn every day (even small progress counts)
 * ✍️ Document what is learned
-* 🔁 Improve old code when skills grow
+* 🔁 Improve old code when skills grow and security 
 
 ## 🎯 Goals for 2026
 
 * Become confident in programming fundamentals
-* Build real-world projects
-* Prepare for higher studies / internships / research
-* Develop problem-solving mindset
+* Build real-world Blockchain projects
+* Prepare for higher studies/internships/research
+* Develop a problem-solving mindset
 
 ## 📖 Rules
 
@@ -84,8 +85,8 @@ This is a **personal learning repository**, but suggestions and improvements are
 
 ## ✨ Author
 
-**Vishwajeet Sharma**
-Student | Programmer | Writer
+**Vishwajeet**
+Learner | Programmer | Security researcher
 
 ---
 
