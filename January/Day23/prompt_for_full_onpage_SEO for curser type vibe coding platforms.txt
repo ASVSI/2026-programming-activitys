@@ -1,0 +1,76 @@
+You are a senior Technical SEO engineer.
+
+My website already has:
+- A marketplace (products / listings)
+- A blog section
+- Dynamic category and filter pages
+
+Your task is to implement and optimize **Technical SEO** across the entire website.
+
+Please do the following:
+
+1. Crawlability & Indexing
+- Ensure all important pages are crawlable by Google
+- Create or optimize robots.txt (do not block important pages)
+- Generate an XML sitemap including:
+  - Product pages
+  - Category pages
+  - Blog posts
+- Add canonical tags to prevent duplicate content issues
+
+2. Site Structure & URLs
+- Optimize URL structure for SEO (clean, readable, keyword-friendly)
+- Ensure proper hierarchy:
+  /marketplace/category/product
+  /blog/category/post
+- Add breadcrumb navigation and breadcrumb schema
+
+3. Structured Data (Schema Markup)
+- Add JSON-LD structured data for:
+  - Product pages (Product, Offer, AggregateRating)
+  - Category pages (ItemList)
+  - Blog posts (Article / BlogPosting)
+  - Organization / Website schema
+- Ensure structured data is eligible for rich snippets in Google
+
+4. Core Web Vitals & Performance
+- Optimize for page speed and Core Web Vitals:
+  - Lazy loading for images
+  - Image compression
+  - Minified CSS and JS
+- Ensure mobile-first and responsive design
+
+5. Meta & HTML Optimization
+- Ensure every page has:
+  - Unique title tag
+  - Unique meta description
+  - Single H1 tag
+  - Proper H2/H3 hierarchy
+- Fix duplicate or missing meta tags
+
+6. Internal Linking
+- Implement logical internal linking:
+  - Marketplace → Blog
+  - Blog → Marketplace
+  - Category → Product
+- Use descriptive anchor text
+
+7. Index Management
+- Handle pagination and filters correctly
+- Use noindex where required (duplicate filter URLs)
+- Add hreflang if multi-language support exists
+
+8. Validation
+- Ensure the site passes:
+  - Google Rich Results Test
+  - Google Search Console coverage checks
+  - Mobile-friendly test
+
+Output required:
+- Code-level changes (HTML / JSON-LD / config)
+- robots.txt example
+- sitemap.xml structure
+- Explanation of why each technical SEO change matters for Google ranking
+
+Goal:
+Improve crawlability, indexing, rich results eligibility, and overall Google rankings without relying on blog content alone.
