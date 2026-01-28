@@ -6,14 +6,22 @@
     <title>Register</title>
 </head>
 <body>
-    {{user.username}}
+    {% if user.is_authenticated %}
+    Hello, {{user.username}} <br>
+    Welcome Back!
     {{user.email}}
+  <form action="{% url 'logout' %}" method="POST">
+        {% csrf_token %}
+        <button type="submit">Log Out</button>
+    </form>
+    {%else%}
      <form action="/" method="post">
         {% csrf_token %}
         {{form.as_ul}}
         <hr>
         <input type="submit" value="Create Accout" class="btn btn-success">
     </form>
+    {%endif%}
 
 </body>
 </html>

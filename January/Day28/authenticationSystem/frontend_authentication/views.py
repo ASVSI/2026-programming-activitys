@@ -1,6 +1,8 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.contrib.auth.forms import UserCreationForm
 from django.http import HttpResponse
+from django.contrib.auth import logout
+
 
 # Create your views here.
 def home(request):
@@ -22,3 +24,8 @@ def home(request):
         else:
             return HttpResponse('form is invallid')
         return render(request, "register.html")
+
+def logout_view(request):
+    logout(request)
+    # Redirect to a desired page, e.g., the homepage or login page
+    return redirect('home')
