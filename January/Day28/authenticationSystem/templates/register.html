@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    {{user.username}}
+    {{user.email}}
+     <form action="/" method="post">
+        {% csrf_token %}
+        {{form.as_ul}}
+        <hr>
+        <input type="submit" value="Create Accout" class="btn btn-success">
+    </form>
+
+</body>
+</html>
